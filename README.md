@@ -1,2 +1,2 @@
 # adamskiStones
-Jewellery store project
+Clothing store project
