@@ -5,23 +5,46 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#353535;
+    background-color:#fff;
+    cursor: default;
 
 }
-#header{
-    background-color: #3c6e71;
+.logo_img{
+    width:auto;
+    height:auto;
+    margin-right: 1rem;
+}
+a:hover{
+    color: black !important;
+}
+.nav_btn{
+    color:black;
+    margin-right: 1rem;
 }
 .basket{
     margin-right: 0.25rem;
     background-color:black;
-    border:none;
+    border:0;
     transform: 0.2s;
     font-weight: 300;
+    margin-right: 0.8rem;
+    border-radius: 1rem;
 }
 .basket:hover{
-    opacity: 0.6;
+    opacity: 0.8;
     transition: ease-in-out 0.2s;
-    background-color: darkgrey;
+    background-color: black;
     font-weight: 300;
 
+}
+.save_later{
+    background-color:white;
+    color:black;
+    border:1px solid black;
+    border-radius: 1rem;
+}
+.save_later:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
 }
